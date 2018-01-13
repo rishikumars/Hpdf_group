@@ -59,11 +59,9 @@ export default class MainProject extends Component {
     render() {
         return (
 
-            <
-            View style = { styles.MainContainer } >
+            <View style = { styles.MainContainer } >
 
-            <
-            TextInput
+            <TextInput
 
             // Adding hint in Text Input using Place holder.
             placeholder = "Enter Email"
@@ -76,8 +74,7 @@ export default class MainProject extends Component {
             style = { styles.TextInputStyleClass }
             />
 
-            <
-            TextInput
+            <TextInput
 
             // Adding hint in Text Input using Place holder.
             placeholder = "Enter Hours"
@@ -90,8 +87,7 @@ export default class MainProject extends Component {
             style = { styles.TextInputStyleClass }
             />
 
-            <
-            TextInput
+            <TextInput
 
             // Adding hint in Text Input using Place holder.
             placeholder = "Enter Minutes"
@@ -104,15 +100,13 @@ export default class MainProject extends Component {
             style = { styles.TextInputStyleClass }
             />
 
-            <
-            Button title = "Submit"
+            <Button title = "Submit"
             onPress = { this.Submit }
             color = "#2196F3" / >
 
 
 
-            <
-            /View>
+            </View>
 
         );
     }
